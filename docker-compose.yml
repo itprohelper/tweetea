@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+        app:
+                container_name: tweetea
+                restart: always
+                image: tapp
+                volumes:
+                        - .:/usr/src/app
+
+                        
+                        
